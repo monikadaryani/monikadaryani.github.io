@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baby Harmoni Gender Reveal</title>
+    
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             background-color: #f9f5ec;
             color: #333;
             padding: 20px;
@@ -15,6 +19,18 @@
 
         h1, h2 {
             color: #d2795d;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
         }
 
         .container {
@@ -33,13 +49,35 @@
         a {
             color: #d2795d;
             text-decoration: none;
+            font-weight: bold;
         }
 
         .color-palette img {
-            max-width: 100%;
+            width: 100%;
+            max-width: 400px; /* Limits the size of the image on larger screens */
             height: auto;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: block;
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .color-palette img {
+                max-width: 100%; /* Full-width image on smaller screens */
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
