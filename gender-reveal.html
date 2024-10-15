@@ -79,12 +79,58 @@
                 font-size: 1.5rem;
             }
         }
+
+        .rsvp-button {
+            display: inline-block;
+            background-color: #d2795d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .rsvp-button:hover {
+            background-color: #b5664a;
+        }
+
+        .amazon-button {
+            display: inline-block;
+            background-color: #d2795d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .amazon-button:hover {
+            background-color: #b5664a;
+        }
+
+        .amazon-logo {
+            width: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <h1>Baby Harmoni Gender Reveal</h1>
+
+        <div class="section">
+            <h2>RSVP</h2>
+            <p>We’d love to know if you’re attending! Please let us know by filling out the RSVP form:</p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdcUBOvgJR1ugRwtWEfZ4iCRfccjHOfWBKEU7Kw3nRY_8G-Xg/viewform" target="_blank" class="rsvp-button">RSVP Here</a></p>
+        </div>
 
         <div class="section">
             <h2>Venue</h2>
@@ -110,6 +156,14 @@
         <div class="section">
             <h2>Baby Registry</h2>
             <p>We are so grateful for your love and support! If you’d like to view the baby registry, please <a href="https://www.amazon.com/baby-reg/monika-daryani-march-2025-sammamish/NC5GVCKA7EAH" target="_blank">click here</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>Baby Registry</h2>
+            <p>We are so grateful for your love and support! If you’d like to view the baby registry, we're registered on Amazon. You can view the registry by clicking the button below:</p>
+            <a href="https://www.amazon.com/baby-reg/monika-daryani-march-2025-sammamish/NC5GVCKA7EAH" target="_blank" class="amazon-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" alt="Amazon Logo" class="amazon-logo"> View Baby Registry
+            </a>
         </div>
     </div>
 
